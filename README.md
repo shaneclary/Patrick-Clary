@@ -5,8 +5,8 @@ companion to people in life's most meaningful moments.
 
 This is not a fan site and not a résumé. It is meant to be the kind of place
 family, colleagues, and the palliative care community can return to decades
-from now — to understand not just what Patrick accomplished, but how he
-practiced medicine, how he related to people, and what values shaped his
+from now — to understand not just what Patrick has accomplished, but how he
+practices medicine, how he relates to people, and what values shape his
 life's work.
 
 ## Viewing the site
