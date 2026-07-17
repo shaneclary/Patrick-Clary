@@ -29,13 +29,16 @@
 
 html { scroll-behavior: smooth; }
 
+/* The prose voice of the whole site is the serif — Inter appears only
+   in small functional labels (kickers, dates, captions, buttons).      */
 body {
   background-color: var(--bone);
   color: var(--charcoal);
-  font-family: var(--sans);
-  font-weight: 380;
-  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
-  line-height: 1.7;
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-weight: 390;
+  font-size: clamp(1.05rem, 1rem + 0.3vw, 1.2rem);
+  line-height: 1.72;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -114,6 +117,7 @@ code {
 .site-nav__links {
   display: flex;
   gap: clamp(0.9rem, 2.4vw, 1.9rem);
+  font-family: var(--sans);
   font-size: 0.78rem;
   letter-spacing: 0.06em;
 }
@@ -254,9 +258,9 @@ code {
 .epigraph__sub {
   display: block;
   margin-top: 1.6rem;
-  font-family: var(--sans);
-  font-size: clamp(0.95rem, 1.3vw, 1.05rem);
-  font-weight: 380;
+  font-style: italic;
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  font-weight: 370;
   color: var(--olive);
 }
 
@@ -429,6 +433,7 @@ code {
   color: var(--ink);
 }
 .book__meta {
+  font-family: var(--sans);
   font-size: 0.78rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -516,6 +521,7 @@ code {
 .story__text::after  { content: '\201D'; color: var(--copper); }
 .story__by {
   margin-top: 1.4rem;
+  font-family: var(--sans);
   font-size: 0.8rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -657,6 +663,7 @@ code {
 .site-footer {
   padding: 3.5rem var(--pad-x) 4rem;
   text-align: center;
+  font-family: var(--sans);
   font-size: 0.85rem;
   color: var(--olive);
   border-top: 1px solid var(--line-soft);
